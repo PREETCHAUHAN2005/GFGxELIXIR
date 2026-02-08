@@ -31,7 +31,7 @@ const cardData = [
   },
   {
     icon: <Lightbulb />,
-    title: "Open Innovation",
+    title: "Innovation",
     desc: "Creative Nebula",
     number: "04",
     tagline: "Innovate without boundaries",
@@ -122,7 +122,7 @@ const Cards = () => {
         </div>
 
         {/* Cards */}
-        <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 max-w-7xl mx-auto">
+        <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 max-w-full px-4 lg:px-8 mx-auto">
           {cardData.map((item, i) => (
             <div
               key={i}
@@ -159,7 +159,7 @@ const Cards = () => {
                 </div>
 
                 {/* Content */}
-                <div className="relative z-10 p-8 lg:p-10">
+                <div className="relative z-10 p-8 lg:p-10 text-center lg:text-left flex flex-col items-center lg:items-start">
                   {/* Icon */}
                   <div className="mb-6">
                     <div className="w-14 h-14 rounded-2xl bg-white/10 border border-white/10 flex items-center justify-center group-hover:bg-white/15 group-hover:border-white/20 group-hover:scale-110 transition-all duration-500">
